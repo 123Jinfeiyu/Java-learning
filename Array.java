@@ -11,7 +11,8 @@ public class Array {
             int rs=reader.nextInt();
             Array[i]=rs;
             i++;
-            if(i>9)  { break;}
+            //这句话加上或者去掉都无所谓，因为while就相当于一个if
+            //if(i>9)  { break;}
         }
         for(int s=Array.length-1;s>=0;s--){
            System.out.println(Array[s]);}
